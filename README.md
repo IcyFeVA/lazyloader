@@ -5,7 +5,7 @@ lazyloader for jQuery
 
 **See demo.html for more info**
 
-Loading an image from lorempixel.com:
+Example: Loading an image from lorempixel.com:
 ***
 
 index.html
