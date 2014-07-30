@@ -16,12 +16,10 @@ Example: Loading an image from lorempixel.com:
 $(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
 ```
 
-*Arguments:
+*Arguments (optional):
 minimum distance,
 replace or append,
 selector*
-
-**all arguments are optional**
 
 
 
