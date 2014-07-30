@@ -13,7 +13,7 @@ index.html
 <span data-lazyloadcontent="<img src='http://lorempixel.com/400/200/city' />">Loading...</span>
 ```
 
-*Arguments:
+*Arguments:*
 minimum distance,
 replace or append,
 jQuery-Selector)
