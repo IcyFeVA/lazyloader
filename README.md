@@ -8,7 +8,6 @@ lazyloader for jQuery (only 1kb)
 Example: Loading an image from lorempixel.com:
 ***
 
-index.html
 ```
 <span data-lazyloadcontent="<img src='http://lorempixel.com/400/200/city' />">Loading...</span>
 ```
@@ -17,12 +16,12 @@ index.html
 $(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
 ```
 
-*Arguments:*
+*Arguments:
 minimum distance,
 replace or append,
-selector
+selector*
 
-all arguments are optional
+**all arguments are optional**
 
 
 
