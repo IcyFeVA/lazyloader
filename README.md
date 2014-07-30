@@ -30,8 +30,8 @@ $(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
 ```
 
 these arguments are optional
-+ minimum distance (default is set to 400 Pixels)
-+ replace or append (default is set to replace)
-+ name of the selector (default is data-lazyloadcontent)
++ minimum distance in Pixels  (default: 400)
++ replace or append content   (default: replace)
++ name of the selector        (default: data-lazyloadcontent)
 
 **See demo.html for more info**
