@@ -20,6 +20,7 @@
 	</style>
 
 	<script src="vendor.js"></script>
+	<script src="lazyloader.js"></script>
 
 </head>
 
@@ -31,8 +32,10 @@
 	<div class="bigbox"></div>
 		<span data-lazyloadcontent="<div style='background-color:#aaff9c'><img src='http://lorempixel.com/400/200/city' /></div>">lazy-loading an image here</span>
 	<div class="bigbox"></div>
-	<span data-lazyloadcontent="<div class='testtarget'><script language='javascript' src='lazyloadme.js'></script>">lazy-loading an external Script here (probably won't work localy)</span>
+	<span data-lazyloadcontent="<div class='testtarget'><script language='javascript' src='assets/lazyloadme.js'></script>">lazy-loading an external Script here (probably won't work localy)</span>
 
-	<script src="lazyloader.js"></script>
+	<script>
+		$(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
+	</script>
 </body>
 </html>
