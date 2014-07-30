@@ -8,10 +8,10 @@ lazyloader for jQuery
 Loading an image from lorempixel.com:
 ***
 
-*index.html
+*index.html*
 > <span data-lazyloadcontent="<img src='http://lorempixel.com/400/200/city' />">Loading...</span>
 
-*script.js
+*script.js*
 > $(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
 
 
