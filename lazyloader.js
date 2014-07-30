@@ -41,6 +41,3 @@ window.lazyloader = (function($) {
     }
 
 })(window.jQuery);
-
-
-$(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
