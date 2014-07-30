@@ -25,13 +25,13 @@ or
 
 
 Initialize the lazyloader at the bottom of your page.
-*Arguments (optional):
-+ minimum distance (default is set to 400 Pixels)
-+ replace or append (default is set to replace)
-+ name of the selector (default is data-lazyloadcontent)
-
 ```javascript
 $(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
 ```
+
+these arguments are optional
++ minimum distance (default is set to 400 Pixels)
++ replace or append (default is set to replace)
++ name of the selector (default is data-lazyloadcontent)
 
 **See demo.html for more info**
