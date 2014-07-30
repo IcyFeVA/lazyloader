@@ -3,12 +3,18 @@ lazyloader for jQuery (only 1kb)
 
 ### lazy-load not only images, but also javascript (inline and external)
 
-Example: Loading an image from lorempixel.com:
+Example: Loading an image or an external script:
 ***
 
 Place one or more div/span elements with the data-lazyloadcontent attribute set to the content you want to load
 ```
 <span data-lazyloadcontent="<img src='http://lorempixel.com/400/200/city' />">Loading...</span>
+```
+
+or
+
+```
+<span data-lazyloadcontent="<script language='javascript' src='lazyloadme.js'></script>">Loading...</span>
 ```
 
 Then initialize the lazyloader at the bottom of your page.
