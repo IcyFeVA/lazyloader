@@ -1,7 +1,7 @@
 lazyloader for jQuery
 ==========
 
-# lazy-load not only images, but also javascript (inline and external)
+### lazy-load not only images, but also javascript (inline and external)
 
 **See demo.html for more info**
 
