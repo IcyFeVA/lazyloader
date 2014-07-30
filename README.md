@@ -23,7 +23,8 @@ or
 <span data-lazyloadcontent="<script>alert('Hello there!');</script>"></span>
 ```
 
-Then initialize the lazyloader at the bottom of your page.
+
+Initialize the lazyloader at the bottom of your page.
 *Arguments (optional):
 + minimum distance (default is set to 400 Pixels)
 + replace or append (default is set to replace)
