@@ -6,4 +6,4 @@ lazyloader for jQuery
 **See demo.html for more info**
 
 **Use:** $(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
-*All Arguments are optional*
+*// All Arguments are optional*
