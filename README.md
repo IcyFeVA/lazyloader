@@ -3,7 +3,7 @@ lazyloader for jQuery (only 1kb)
 
 ### lazy-load not only images, but also javascript (inline and external)
 
-Example: Loading an image or an external script:
+Examples: Loading an image or inline/external javascript:
 ***
 
 Place one or more div/span elements with the data-lazyloadcontent attribute set to the content you want to load
