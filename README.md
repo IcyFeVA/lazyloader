@@ -1,7 +1,7 @@
 lazyloader
 ==========
 
-lazy load not only images, but also scripts (inline and external)
+## lazy load not only images, but also scripts (inline and external)
 
 jQuery is needed for this to work.
 
