@@ -17,6 +17,12 @@ or
 <span data-lazyloadcontent="<script language='javascript' src='myscript.js'></script>"></span>
 ```
 
+or
+
+```
+<span data-lazyloadcontent="<script>alert('Hello there!');</script>"></span>
+```
+
 Then initialize the lazyloader at the bottom of your page.
 *Arguments (optional):
 + minimum distance (default is set to 400 Pixels)
