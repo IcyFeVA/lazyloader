@@ -9,9 +9,9 @@ Loading an image from lorempixel.com:
 ***
 
 *index.html
-<span data-lazyloadcontent="<img src='http://lorempixel.com/400/200/city' />">Loading...</span>
+> <span data-lazyloadcontent="<img src='http://lorempixel.com/400/200/city' />">Loading...</span>
 
 *script.js
-$(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
+> $(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
 
 
