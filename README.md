@@ -13,7 +13,7 @@ index.html
 <span data-lazyloadcontent="<img src='http://lorempixel.com/400/200/city' />">Loading...</span>
 ```
 
-init(proximity to target, replace or append, jQuery-Selector) -- all arguments are optional
+init(minimum distance, replace or append, jQuery-Selector) -- all arguments are optional
 ```javascript
 $(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
 ```
