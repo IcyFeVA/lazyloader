@@ -13,15 +13,16 @@ index.html
 <span data-lazyloadcontent="<img src='http://lorempixel.com/400/200/city' />">Loading...</span>
 ```
 
-*Arguments:*
-minimum distance,
-replace or append,
-jQuery-Selector)
-
--- all arguments are optional
-
 ```javascript
 $(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
 ```
+
+*Arguments:*
+minimum distance,
+replace or append,
+jQuery-Selector
+
+all arguments are optional
+
 
 
