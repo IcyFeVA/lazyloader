@@ -20,7 +20,7 @@ $(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
 *Arguments:*
 minimum distance,
 replace or append,
-jQuery-Selector
+selector
 
 all arguments are optional
 
