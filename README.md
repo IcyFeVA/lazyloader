@@ -8,13 +8,13 @@ Example: Loading an image or an external script:
 
 Place one or more div/span elements with the data-lazyloadcontent attribute set to the content you want to load
 ```
-<span data-lazyloadcontent="<img src='http://lorempixel.com/400/200/city' />">Loading...</span>
+<span data-lazyloadcontent="<img src='myimage.jpg' />">Loading...</span>
 ```
 
 or
 
 ```
-<span data-lazyloadcontent="<script language='javascript' src='lazyloadme.js'></script>">Loading...</span>
+<span data-lazyloadcontent="<script language='javascript' src='myscript.js'></script>"></span>
 ```
 
 Then initialize the lazyloader at the bottom of your page.
