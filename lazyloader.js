@@ -27,12 +27,12 @@ window.lazyloader = (function($) {
         proximityCheck();
     };
 
-    var init = function(distance, replace, jqSelector) {
-        injectDist = distance || 400;
-        selector = jqSelector || 'data-lazyloadcontent';
-        replaceORappend = replace || 'replace';
+    var init = function(dist, reporap, sel) {
+        injectDist = dist || 400;
+        selector = sel || 'data-lazyloadcontent';
+        replaceORappend = reporap || 'replace';
 
-        $.each($('[' + selector + ']'), function() {
+        $.each($('[' + sel + ']'), function() {
             proximityLoad($(this));
         });
     };
