@@ -1,4 +1,4 @@
-lazyloader for jQuery
+lazyloader for jQuery (only 1kb)
 ==========
 
 ### lazy-load not only images, but also javascript (inline and external)
