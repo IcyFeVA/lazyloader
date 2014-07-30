@@ -1,5 +1,6 @@
 /*
-	by Pascal "Mason" Zirn | pascal.zirn@20minuten.ch
+	by Pascal "Mason" Zirn | www.sonicboom.ch
+	https://github.com/n3utrinoCH
 */
 
 window.lazyloader = (function($) {
