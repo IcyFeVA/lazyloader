@@ -7,7 +7,7 @@ lazyloader for jQuery
 
 Loading an image from lorempixel.com:
 ***
-script.js
+init(proximity to target, replace or append, jQuery-Selector) -- all arguments are optional
 ```javascript
 $(lazyloader.init(300, 'append', 'data-lazyloadcontent'));
 ```
