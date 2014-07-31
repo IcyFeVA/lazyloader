@@ -1,7 +1,6 @@
-lazyloader for jQuery (only 1kb)
+lazy-load not only images, but also javascript (inline and external)
+for jQuery (only 1kb)
 ==========
-
-### lazy-load not only images, but also javascript (inline and external)
 
 Examples: Loading an image or inline/external javascript:
 ***
