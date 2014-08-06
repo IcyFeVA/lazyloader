@@ -1,4 +1,4 @@
-lazy-load not only images, but also javascript - for jQuery (only 1kb)
+lazy-load not only images, but also javascript or css - for jQuery (only 1kb)
 ==========
 
 Examples: Loading an image or inline/external javascript:
